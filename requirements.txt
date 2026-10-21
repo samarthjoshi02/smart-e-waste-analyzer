@@ -1,8 +1,13 @@
 # Machine Learning & Computer Vision
+# NOTE: torch CPU-only build keeps Streamlit Cloud under resource limits.
+# For GPU inference, replace with the appropriate CUDA wheel.
 torch>=2.5.0
 torchvision>=0.20.0
 ultralytics>=8.3.0
-opencv-python>=4.8.0
+
+# Use headless OpenCV — plain opencv-python requires a display server (libGL)
+# which is NOT present on Streamlit Community Cloud / Hugging Face Spaces / Render.
+opencv-python-headless>=4.8.0
 pillow>=10.0.0
 
 # Web Application UI

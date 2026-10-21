@@ -1,0 +1,19 @@
+# Exclude the Streamlit ML backend app from Vercel deployment.
+# app.py is a Streamlit application (not a Vercel serverless function).
+# It is deployed separately on Streamlit Community Cloud / Hugging Face Spaces.
+app.py
+
+# Exclude heavy ML assets that exceed Vercel's 250MB bundle limit
+models/
+dataset/
+runs/
+training/
+.venv/
+app_data/
+
+# Exclude local dev / test files
+tests/
+tools/
+__pycache__/
+*.pyc
+.env

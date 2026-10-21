@@ -1,0 +1,17 @@
+path: .
+train: images/train
+val: images/val
+
+nc: 10
+names:
+  - Resistor
+  - Capacitor
+  - Diode
+  - LED
+  - IC
+  - Connector
+  - Switch/Button
+  - Header
+  - Crystal
+  - Debug/TP
+

@@ -1,0 +1,19 @@
+# Machine Learning & Computer Vision
+torch>=2.5.0
+torchvision>=0.20.0
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+
+# Web Application UI
+streamlit>=1.35.0
+
+# Optional AI Environmental Advisory
+groq>=0.9.0
+
+# Data Science & Configuration
+numpy>=1.26.0
+pandas>=2.2.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+reportlab>=4.0.0

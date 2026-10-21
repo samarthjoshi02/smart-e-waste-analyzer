@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.cache
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variables & local secrets
+.env
+.env.local
+*.local
+
+# Temporary application directories, local history & logs
+uploads/
+outputs/
+runs/
+app_data/
+*.db
+*.sqlite
+*.log
+
+# Operating system & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large Model weights (when not using Git LFS)
+# models/*.pt
